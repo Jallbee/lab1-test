@@ -1,0 +1,23 @@
+body {  background-image:linear-gradient(grey,black); 
+	color: darkorange;}
+	.card1{border-style: solid;
+	border-color: #ED820E;
+ margin-top: 20px; 
+ padding:20px; background-color: #FF8106; color:black;float: center;}
+ 
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+	border-style: solid;
+	border-color: darkorange;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
